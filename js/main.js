@@ -7,7 +7,7 @@ $('#next-slide').click(function() {
         $(slide).appendTo('#slideshow');
     });
 
-    $('#slideshow .slide').next().animate({
+    slide.next().animate({
         left: '50%'
     }, 500);
 });
