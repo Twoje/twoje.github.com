@@ -37,14 +37,6 @@
         <![endif]-->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"></a>
-        </div>
         <nav class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="http://twoje.github.io/">Home</a></li>
@@ -72,10 +64,19 @@
       </h1>
     </div>
 
-    <div class="jumbotron">
-      <div class="container" style="text-align:center">
-        <h3>ultimerte</h3>
-        <a href="https://twoje.github.io/ultimerte"><img src="pngs/ultimerte.png" alt="ultimerte" style="width:700px"></a>
+    <div class="jumbotron" id="slideshow-cont">
+      <div class="container" id="slideshow" style="text-align:center">
+        <div class='slide' style='left: 50%;'>
+          <h3>ultimerte</h3>
+          <a href="https://twoje.github.io/ultimerte"><img src="pngs/ultimerte.png" alt="ultimerte" style="width:700px"></a>
+        </div>
+        <div class='slide'>
+          <h3>Steam Categorizer</h3>
+          <a href="https://github.com/Twoje/SteamCategorizerDesktop"><img src="pngs/steam_categorizer.png" alt="Steam Categorizer" style="width:700px"></a>
+        </div>
+      </div>
+      <div id="next-slide">
+        <h1>&#8250;</h1>
       </div>
     </div>
     <!-- Footer -->
@@ -98,5 +99,6 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
     </body>
 </html>
