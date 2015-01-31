@@ -11,3 +11,5 @@ $('#next-slide').click(function() {
         left: '50%'
     }, 500);
 });
+
+$("#copyright").prepend("&copy;" + new Date().getFullYear().toString());
